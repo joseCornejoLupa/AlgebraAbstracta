@@ -9,6 +9,6 @@ int main(){
 	string o = "abcdefghijklmnop";
 	//CifradoPorCajas primero(4,5);
 	//cout << primero.cifrar(o) << endl;
-	cout << 1%4 << endl;
+	cout << 2%6 << endl;
 	return 0;
 }

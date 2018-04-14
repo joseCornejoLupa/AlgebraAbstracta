@@ -37,15 +37,10 @@ string CifradoPorCajas::cifrar(string original){
 	string segundoCuadrado;
 
 	int comienzo;
-	int aux;
 	if(claveTamanio % 2 == 0){
-		aux = comienzo % claveTamanio;
+		int aux = comienzo % claveTamanio;
+		segundoCuadrado += original[claveTamanio + aux];
 	}
-	else{
-		aux = claveTamanio % comienzo;
-	}
-	segundoCuadrado += original[claveTamanio + aux];
-	
 
 	return primerCuadrado;
 }
